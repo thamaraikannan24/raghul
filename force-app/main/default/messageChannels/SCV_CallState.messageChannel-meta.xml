@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>SCV Call State</masterLabel>
+    <isExposed>true</isExposed>
+    <description>SCV/Genesys call state synchronization channel.</description>
+    <lightningMessageFields>
+        <fieldName>voiceCallId</fieldName>
+        <description>VoiceCall Id</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>interactionId</fieldName>
+        <description>Genesys interaction identifier</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>callState</fieldName>
+        <description>Current telephony state</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>timestamp</fieldName>
+        <description>ISO timestamp for event</description>
+    </lightningMessageFields>
+</LightningMessageChannel>
