@@ -52,7 +52,7 @@
             <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
-    <processType>RecordTriggeredFlow</processType>
+    <processType>AutoLaunchedFlow</processType>
     <recordLookups>
         <name>Lookup_Contact_By_Phone</name>
         <label>Lookup Contact By Phone</label>
